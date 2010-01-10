@@ -79,7 +79,7 @@ Here's why you may prefer Homebrew to the alternatives:
 
 10. Fork with Git  
     The formula are all on git, so just fork to add new packages, or add extra
-    remotes to get packages from more exotic maintainers.
+    remotes to get packages from more exotic maintainers. 
 
 11. Surfing the cutting edge  
     If the package provides a git://, svn://, cvs:// or hg:// url you can
@@ -227,6 +227,13 @@ Show expensive packages:
 
     du -md1 /usr/local/Cellar
 
+Install the cutting edge version straight from source control:
+
+    brew install -H emacs
+
+Show more output:
+
+    brew install -v wget
 
 Contributing New Formulae
 =========================
